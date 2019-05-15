@@ -12,9 +12,9 @@ function displayResults(responseJson) {
     $('.resultsList').empty();
     for (let i = 0; i < responseJson.data.length; i++) {
         $('.resultsList').append(
-            `<li><h3>${responseJson.data[i].fullName}</a></h3></li>
-            <p>${responseJson.data[i].description}</a></p>
-            <p>${responseJson.data[i].url}</a></p></li>`
+            `<li><h3>${responseJson.data[i].fullName}</h3></li>
+            <p>${responseJson.data[i].description}</p>
+            <p><a href='${responseJson.data[i].url}'</a></p></li>`
         )
     };
     console.log(responseJson);
