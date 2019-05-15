@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(80, 201, 80);
+    font-family: "Montserrat";
+    font-size: 14px;
+}
+
+body {
+    padding: 2%;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Poiret+One";
+    font-size: 40px;
+}
+
+.resultsList {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0 10px;
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+input, button {
+    background-color: white;
+    font-family: "Poiret+One";
+}
+
+button {
+    font-size: 18px;
+}
+
+label {
+    font-size: 16px;
+}
+
+li {
+    margin: 20px 0;
+}
+
+.searchForm {
+    margin: 10px;
+}
+
+button {
+    width: 20%;
+    padding: 4px;
+    margin: 10px;
+    border: black;
+    border-radius: 2px;
+}
